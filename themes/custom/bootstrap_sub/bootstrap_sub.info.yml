@@ -1,0 +1,31 @@
+name: Bootstrap Sub
+type: theme
+description: 'Halcyon Digital Media Starter Kit Subtheme.'
+# version: VERSION
+# core: 8.x
+base theme: bootstrap_barrio
+
+libraries:
+  - bootstrap_sub/subtheme-styling
+  
+libraries-override:
+  bootstrap_barrio/global-styling: false
+  bootstrap_barrio/file: false
+
+regions:
+  top_header: 'Top Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  top_full_row: Top Full Row
+  breadcrumb: Breadcrumb
+  sidebar_first: 'Sidebar first'
+  content: Content
+  sidebar_second: 'Sidebar second'
+  bottom_full_row: 'Bottom Full Row'
+  footer: 'Footer'
+
+# Information added by Drupal.org packaging script on 2019-01-26
+version: '8.x-1.7'
+core: '8.x'
+project: 'bootstrap_sub'
+datestamp: 1548511394

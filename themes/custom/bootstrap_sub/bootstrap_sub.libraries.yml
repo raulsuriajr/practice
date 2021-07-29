@@ -1,0 +1,15 @@
+subtheme-styling:
+  version: VERSION
+  js: 
+    # /libraries/popper.js/dist/popper.js: {}
+    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
+    js/main.js: {}
+  css:
+    component:
+      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+      css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
+    - core/jquery.ui.effects.core

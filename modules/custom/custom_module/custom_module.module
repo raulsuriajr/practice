@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+function custom_module_page_attachments(array &$attachments) {
+  $active_theme = \Drupal::service('theme.manager')->getActiveTheme()->getName();
+  $detect_mobile = new Mobile_Detect;
+
+  if ($active_theme && $active_theme == 'seven') {
+    $attachments['#attached']['library'][] = 'custom_module/custom_module';
+  }
+
+  $mobile_info = array(
+    'is_mobile' => $detect_mobile->isMobile(),
+    'is_tablet' => $detect_mobile->isTablet(),
+    'is_iphone' => $detect_mobile->isIphone(),
+    'is_chrome' => $detect_mobile->is('Chrome'),
+  );
+
+   // Add settings to js
+   $attachments['#attached']['drupalSettings']['mobile_detect'] = $mobile_info;
+}

@@ -1,0 +1,9 @@
+custom_module:
+  css:
+    theme:
+      css/custom_module.css: {}
+  js:
+    js/custom_module.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
