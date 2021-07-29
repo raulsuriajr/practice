@@ -43,3 +43,9 @@ sites/simpletest
 # simpletest
 .idea
 tmp
+
+# Ignore themes
+themes/contrib
+
+# Ignore contrib modules
+modules/contrib
