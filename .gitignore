@@ -153,7 +153,6 @@ typings/
 .idea
 /core
 /sites/*
-/composer.lock
 /config/
 /modules/contrib/
 /themes/contrib/
