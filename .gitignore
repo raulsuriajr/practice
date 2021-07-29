@@ -49,3 +49,6 @@ themes/contrib
 
 # Ignore contrib modules
 modules/contrib
+
+# Ignore .env
+.env
