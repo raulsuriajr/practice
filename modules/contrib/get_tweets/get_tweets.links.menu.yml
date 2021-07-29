@@ -1,0 +1,5 @@
+get_tweets.settings:
+  title: 'Get Tweets settings'
+  description: 'Get Tweets settings.'
+  parent: system.admin_config_services
+  route_name: get_tweets.settings

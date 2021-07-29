@@ -1,0 +1,9 @@
+import: false
+queries:
+  - query: ''
+    endpoint: search/tweets
+    parameter: q
+count: 10
+expire: 0
+consumer_key: null
+consumer_secret: null
