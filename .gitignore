@@ -52,3 +52,7 @@ modules/contrib
 
 # Ignore .env
 .env
+
+# Others
+stats
+config
