@@ -1,0 +1,5 @@
+name: Vue Test
+description: This is another vue test
+type: module
+core: 8.x
+package: Custom

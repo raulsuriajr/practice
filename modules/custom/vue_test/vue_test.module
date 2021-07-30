@@ -1,0 +1,9 @@
+<?php
+
+function vue_test_theme() {
+  return [
+    'vue_test_template' => [
+      'render element' => 'page'
+    ]
+  ];
+}

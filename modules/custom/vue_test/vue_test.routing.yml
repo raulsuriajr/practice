@@ -1,0 +1,7 @@
+vue.test:
+  path: '/vue-test'
+  defaults:
+    _title: 'Vue Test'
+    _controller: '\Drupal\vue_test\Controller\VueTestController::vueTest'
+  requirements:
+    _permission: 'access content'
