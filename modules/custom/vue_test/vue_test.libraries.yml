@@ -1,0 +1,4 @@
+vue.test.library:
+  version: 1.x
+  js:
+    dist/js/app.js: { defer: true }

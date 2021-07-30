@@ -7,3 +7,7 @@ function vue_test_theme() {
     ]
   ];
 }
+
+function vue_test_page_attachments_alter(&$attachments) {
+  $attachments['#attached']['library'][] = 'vue_test/vue.test.library';
+}
